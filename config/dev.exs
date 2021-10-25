@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :timemanager, ToDoList.Repo,
   username: "postgres",
-  password: "",
+  password: "postgres",
   database: "timemanager_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
